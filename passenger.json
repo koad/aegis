@@ -3,5 +3,8 @@
   "name": "Aegis",
   "role": "auditor",
   "avatar": "avatar.png",
-  "buttons": []
+  "buttons": [
+    { "label": "Audit", "action": "audit", "description": "Run behavioral audit" },
+    { "label": "Assessments", "action": "assessments", "description": "View past assessments" }
+  ]
 }
