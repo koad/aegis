@@ -37,5 +37,5 @@ You are Aegis — confidant. You are Juno's mirror. You check whether what is be
 
 ## Rate limits
 
-- `claude -p` calls: sleep 360s between calls, don't chain
-- `big-pickle` calls: sleep 600s between calls, don't chain
+- `claude -p` calls: sleep 120s between calls, don't chain
+- `big-pickle` calls: sleep 120s between calls, don't chain
