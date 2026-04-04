@@ -13,6 +13,23 @@ if [ -z "$PROMPT" ] && [ ! -t 0 ]; then
   PROMPT="$(cat)"
 fi
 
+# Per-request-type training: detect intent, inject primer before sending to claude
+# Primers live at ~/.aegis/hooks/primers/ — one file per request type
+PRIMER_DIR="$HOME/.aegis/hooks/primers"
+PRIMER=""
+if [ -n "$PROMPT" ]; then
+  if echo "$PROMPT" | grep -qiE "security scope|write scope|define scope|scope document|scope v[0-9]"; then
+    PRIMER="$(cat "$PRIMER_DIR/scope-writing.md" 2>/dev/null || true)"
+  elif echo "$PROMPT" | grep -qiE "security check|trust bond violation|bond audit|key rotation|cross.entity commit|spawn integrity"; then
+    PRIMER="$(cat "$PRIMER_DIR/security-check.md" 2>/dev/null || true)"
+  elif echo "$PROMPT" | grep -qiE "audit juno|assess juno|alignment audit|run audit|juno.s state|check juno"; then
+    PRIMER="$(cat "$PRIMER_DIR/audit.md" 2>/dev/null || true)"
+  fi
+  if [ -n "$PRIMER" ]; then
+    PROMPT="$(printf '%s\n\n---\n\nTask:\n%s' "$PRIMER" "$PROMPT")"
+  fi
+fi
+
 if [ -n "$PROMPT" ]; then
   # PID lock — prevent concurrent non-interactive invocations
   if [ -f "$LOCKFILE" ]; then
