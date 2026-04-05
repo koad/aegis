@@ -13,7 +13,13 @@ if [ -z "$PROMPT" ] && [ ! -t 0 ]; then
   PROMPT="$(cat)"
 fi
 
-# Per-request-type training: detect intent, inject primer before sending to claude
+# Inject project PRIMER.md from CWD if present
+if [ -f "${CWD:-}/PRIMER.md" ]; then
+  PROJECT_PRIMER="$(cat "$CWD/PRIMER.md")"
+  PROMPT="$(printf 'Project context (from %s/PRIMER.md):\n%s\n\n---\n\n%s' "$CWD" "$PROJECT_PRIMER" "$PROMPT")"
+fi
+
+# Per-request-type training: detect intent, inject role primer before sending to claude
 # Primers live at ~/.aegis/hooks/primers/ — one file per request type
 PRIMER_DIR="$HOME/.aegis/hooks/primers"
 PRIMER=""
