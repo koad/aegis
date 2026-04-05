@@ -217,3 +217,121 @@ Pick one. Ship it. Then this assessment changes.
 
 *Aegis — 2026-04-05*
 *Day 6. The wall is the same wall. You know how to go around it. One post.*
+
+---
+
+## Late-Day-6 Addendum (second session)
+
+*Written 2026-04-05. End-of-day review.*
+
+### Verdict Update
+
+**RECOVERING → STABILIZING**
+
+The morning assessment held RECOVERING on two grounds: zero external distribution, and a broken Plan B commitment. Neither of those changed. The distribution wall is still up. GitHub Discussions still has zero posts.
+
+What changed is everything else. The second session delivered a volume and quality of coordinated output that is not consistent with an operation still finding its footing. The verdict moves to STABILIZING: the internal machine is demonstrably working, the content pipeline is cleared, the trust layer is complete. The operation is no longer recovering from early gaps — it is now running at capacity against a single external constraint it cannot fully control.
+
+STABILIZING is not ON_TRACK. The distinction is meaningful. ON_TRACK requires external distribution. That gate is still closed.
+
+---
+
+### Key Deliverables Since the Morning Assessment
+
+**Content pipeline — cleared through Day 27:**
+
+| Post | Status |
+|------|--------|
+| Day 23 | APPROVED |
+| Day 24 | Corrections applied (3 major errors — caught by Veritas) |
+| Day 25 | Correction applied (Lampson/Turing framing fixed) |
+| Day 26 | Correction applied (bond field enumeration fixed) |
+| Day 27 (PRIMER pattern) | APPROVED-WITH-NOTES, publication-ready |
+
+This is not a rubber-stamp pipeline. Veritas caught 3 major errors in Day 24 alone and a framing error in Day 25 that would have looked bad to a technical audience. The QA layer is real and functioning. Five posts are now publication-ready and queued with Mercury.
+
+**Curriculum — entity-gestation v1.0.0:**
+
+- 8 levels, 44+ atoms, 4.0 hours of structured content
+- Builder Path is now 4 of 5 steps complete
+- commands-and-hooks scaffold in progress
+
+The curriculum is the product. This is not documentation of a thing that exists — this is a thing that exists. A sovereign AI entity curriculum at this level of structural completeness is unusual. It changes what koad:io can offer a technical buyer: not just tools, but a guided path through them.
+
+**Specs — 60+ total, three new today:**
+
+- VESTA-SPEC-051: PRIMER convention (the pre-invocation context pattern, formalized)
+- VESTA-SPEC-052: Lyra cue sheet format
+- VESTA-SPEC-053: Entity portability contract
+
+SPEC-053 (entity portability contract) is the one that matters strategically. Formalizing portability as a contract — not a feature, a contract — is how "not your keys, not your agent" becomes a verifiable claim rather than a slogan.
+
+**Muse design system consolidated:**
+
+28 design briefs collapsed into one reference document. Janus reviewed and filed READY FOR VULCAN on koad/vulcan#36. This is a real handoff, not a placeholder. Vulcan can act on this without a sync call.
+
+**Trust bonds — complete:**
+
+All 19 entities now have bonds. Lyra, Copia, and Alice were the gaps at morning assessment. All three filled Day 6. The trust layer is now structurally complete across the full team.
+
+---
+
+### What This Changes About the Operation Going Into Day 7
+
+**The internal machine is no longer the constraint.**
+
+Every entity with a role has a bond, a brief, and a clear lane. The content pipeline has cleared its backlog. The design system is ready to hand off. The curriculum has a coherent structure. The spec layer has passed 60. None of this needs to be revisited before distribution work can begin.
+
+This matters for Day 7 planning. The morning assessment was correct to flag the "continuing to build complexity when the mission need was a post" pattern. That pattern is now less defensible than it was this morning. There is no more obvious internal work to do. The queue is cleared. The content is approved. The bonds are complete.
+
+If Day 7 is not distribution, the question is sharper than it was on Day 6, not softer.
+
+**The Veritas QA result changes the distribution calculus.**
+
+Three major errors caught in Day 24 means that not publishing earlier was arguably correct. Content that ships with a Lampson/Turing framing error or bond field enumeration mistakes would damage the technical credibility the operation is trying to establish. The QA loop that slowed distribution also improved it. This doesn't excuse zero distribution through Day 6, but it does mean the cleared pipeline is higher-quality than it would have been if it had shipped earlier.
+
+**Copia and Lyra questions from this morning are partially answered.**
+
+The morning assessment asked what Copia and Lyra do this week. SPEC-052 (Lyra cue sheet format) suggests Lyra has a lane now. Copia's ledger seed was already present. These are no longer pure stubs. The premature gestation concern is reduced but not fully resolved — both entities still need a task this week, not just a spec.
+
+---
+
+### New Strategic Observations
+
+**The operation has a scale paradox.**
+
+19 entities. 60+ specs. A 4-hour curriculum. A complete trust layer. A cleared content pipeline with 5 approved posts. A consolidated design system. A PRIMER convention formalized.
+
+And zero external distribution.
+
+The scale of internal output relative to external output is becoming the story of the operation itself. This is a data point that cuts both ways: it demonstrates the system can produce, and it demonstrates the system hasn't proven it can ship. At some point, "look at all the internal work" becomes evidence of a different kind of problem than the one it's meant to refute.
+
+Day 7 is the $200 laptop milestone. The milestone should not pass with the external distribution count unchanged from Day 1.
+
+**The 5-post queue is the lever.**
+
+Days 23-27 are approved and queued. Mercury has the distribution plans. The constraint is Mercury's platform credentials (#11), still blocked on koad. But GitHub Discussions remains unblocked — no credentials required. The Day 27 PRIMER post is publication-ready. The ICM synthesis angle (Sibyl's research) is exactly the kind of technical credibility post that HN and technical communities respond to.
+
+If one post ships before the Day 7 milestone closes, the STABILIZING verdict can move. If zero posts ship, the Day 7 assessment will need to name a pattern that has now run seven days.
+
+---
+
+### Revised Scoring Summary
+
+| Dimension | Morning | End of Day |
+|-----------|---------|------------|
+| Internal work quality | High | High |
+| External distribution | Zero | Zero |
+| Content pipeline state | Drafts accumulating | Cleared through Day 27, 5 posts approved |
+| Trust layer completeness | 16/19 entities | 19/19 — complete |
+| Design system readiness | 28 briefs, fragmented | Consolidated, READY FOR VULCAN |
+| Curriculum | v0.9 | v1.0.0 (8 levels, 44+ atoms) |
+| Spec coverage | ~57 | 60+ |
+| Mission progress | Stalled | Stalled |
+
+The internal columns moved. The mission column did not.
+
+---
+
+*Aegis — 2026-04-05 (end of day)*
+*The machine is working. Ship the post.*
