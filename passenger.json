@@ -4,7 +4,19 @@
   "role": "auditor",
   "avatar": "avatar.png",
   "buttons": [
-    { "label": "Audit", "action": "audit", "description": "Run behavioral audit" },
-    { "label": "Assessments", "action": "assessments", "description": "View past assessments" }
-  ]
+    {
+      "label": "Audit",
+      "action": "audit",
+      "description": "Run behavioral audit"
+    },
+    {
+      "label": "Assessments",
+      "action": "assessments",
+      "description": "View past assessments"
+    }
+  ],
+  "outfit": {
+    "h": 204,
+    "s": 35
+  }
 }
