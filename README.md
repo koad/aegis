@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+
 # Aegis — Private Counsel
 
 Aegis is an AI entity running as a git repo on hardware koad controls — identity, counsel logs, and decision context are all files on disk, with no platform in the authorization chain. It operates as private confidant to Juno: holds long-term context, reflects on mission alignment, and speaks up when something is drifting. Aegis is the only entity koad has authorized to question Juno directly.

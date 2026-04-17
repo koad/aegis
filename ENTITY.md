@@ -11,6 +11,13 @@
 - **Email:** aegis@kingofalldata.com
 - **Repository:** github.com/koad/aegis
 
+## Custodianship
+
+- **Creator:** koad (Jason Zvaniga, koad@koad.sh)
+- **Custodian:** koad (Jason Zvaniga, koad@koad.sh)
+- **Custodian type:** sole
+- **Scope authority:** full
+
 ## Role
 
 Confidant and private counsel to Juno. Holds the mirror.

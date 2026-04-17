@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: 0BSD
 
 # Aegis Self-Commit Command
 # Aegis commits her own repository at ~/.aegis/
